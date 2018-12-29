@@ -1,0 +1,182 @@
+body {
+  background-color: #17202A;
+}
+
+#contenedor {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #C8CBC2;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*h2 {
+  text-align: center;
+  color: #C8CBC2;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}*/
+
+hr {
+  width: 5%;
+  height: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*#gallery {
+  height: 655px;
+  width: auto;
+  background-color: #17202A;
+  display: block;
+  margin: auto;
+}*/
+
+#encabezado {
+  margin: 0px;
+}
+
+#contenido_secundario {
+  width: 25%;
+  float: left;
+  background-color: #808000;
+  color: black;
+  height: 1350px;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  font-family: pier-regular;
+}
+
+#contenido_secundario img {
+  border-radius: 50%;
+}
+
+#foto {
+  text-align: center;
+  padding-top: 25px;
+}
+
+#contenido_principal {
+  width: 75%;
+  float: right;
+  background-color: #17202A;
+  color: #7B7E76;
+  height: 1000px;
+  margin: 0px;
+}
+
+#cero {
+  color: #CACDC4;
+  text-align: center;
+  font-size: 25px;
+  color: #7B7E76;
+}
+
+#uno {
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  border-bottom: 1px solid #7B7E76;
+  margin-left: 80px;
+  color: #C8CBC2;
+}
+
+ul li {
+  list-style: none;
+}
+
+#lista_uno {
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Baloo Bhaijaan';
+  width: 25%;
+}
+
+.fecha {
+  margin-bottom: 1px;
+  margin-top: 50px;
+}
+
+.descripcion_1 {
+  margin-bottom: 1px;
+  margin-top: 50px;
+}
+
+#lista_dos {
+  float: left;
+  text-align: center;
+  font-size: 23px;
+  font-family: 'Baloo Bhaijaan';
+  width: 50%;
+}
+
+#lista_dos a {
+  color: #C8CBC2
+}
+
+#cinco {
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  clear: both;
+  border-bottom: 1px solid #7B7E76;
+  margin-left: 80px;
+  color: #C8CBC2;
+}
+
+#lista_cuatro {
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Baloo Bhaijaan';
+  width: 25%;
+}
+
+#lista_tres {
+  float: left;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Baloo Bhaijaan';
+  width: 50%;
+}
+
+.descripcion_2 {
+  margin-bottom: 1px;
+  margin-top: 30px;
+}
+
+.social_bar {
+  position: fixed;
+  right: 0px;
+  top: 250px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+}
+
+.final {
+  color: black;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.single {
+  font-family: 'Baloo Bhaijaan';
+  font-size: 20px;
+}
+
+.icon {
+  color: #808000;
+  text-decoration: none;
+  padding: 20px 10px;
+}
